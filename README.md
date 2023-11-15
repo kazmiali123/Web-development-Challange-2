@@ -30,7 +30,7 @@ https://github.com/kazmiali123/Web-development-Challange-2
 Images and Icons were used from shutter stock to provide a visual representation of the linked applications.
 
 
-## API Reference
+## Reference
 
 https://developer.mozilla.org/en-US/
 
