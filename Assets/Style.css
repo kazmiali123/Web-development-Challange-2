@@ -1,0 +1,245 @@
+body{
+    display: flex;    
+    flex-direction: column;
+    margin: 0%;
+    background-color: rgb(237, 237, 247);
+}
+
+header{
+    background-color:rgb(49, 52, 61);
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    display: flex;
+    text-wrap: wrap;
+    font-size: 40px;
+    height: 70%;
+    width: 250px;
+    background-color: rgb(145, 204, 205); 
+    color: rgb(49, 52, 61);
+    padding-left: 4%;
+    padding-right: 2%;    
+    align-items: center;
+    justify-content: right;
+}
+
+
+.header-resources ul {
+    display:flex;    
+    padding: 15px;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-resources a {
+    font-size: 25px;
+    text-decoration-line:underline;
+    padding: 8px;
+    color:rgb(152, 202, 203)
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+.container img {
+    height: 200px;  
+    width: 100%;
+}
+
+.container .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background-color: rgb(145, 204, 205); 
+    color: rgb(49, 52, 61);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-section {
+    display: flex;
+    height: 250px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: right;        
+    font-size:30px;
+    color: rgb(66, 85, 117);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-right: solid rgb(66, 85, 117) 5px;
+    width: 20%;    
+}
+ 
+.description {
+    display:flex;
+    font-size: 18px;
+    color: rgb(66, 85, 117);
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.work {
+    display: flex;
+    justify-content: right;        
+    font-size:30px;
+    color: rgb(66, 85, 117);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-right: solid rgb(66, 85, 117) 5px;
+    width: 20%;    
+}
+
+.work-boxes {
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;    
+}
+
+.top-box{
+    display: flex;
+    position: relative;
+    
+}
+
+.top-box img {
+    height: 400px;  
+    width: 100%;
+    border: solid rgb(145, 204, 205) 5px;
+}
+
+.top-box .text-block {
+    position: absolute;
+    justify-content: left;
+    bottom: 30px;    
+    font-size: 20px;
+    background-color: rgb(145, 204, 205); 
+    color: rgb(49, 52, 61);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px, 0px, 20px, 0px;
+}
+
+figure .image{
+    margin-left: 0px;
+}
+
+.middle-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; 
+    padding:0px;   
+}
+
+.middle-boxes .image img {
+    height: 200px;  
+    width: 100%;
+    border: solid rgb(145, 204, 205) 5px;
+}
+
+.middle-boxes .text-block {
+    position: absolute;
+    justify-content: left;
+    bottom: 30px;    
+    font-size: 20px;
+    background-color: rgb(145, 204, 205); 
+    color: rgb(49, 52, 61);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px, 0px, 20px, 0px;
+}
+
+.bottom-boxes{
+    display: flex;    
+    flex-wrap: wrap;
+    position: relative;    
+}
+
+.bottom-boxes .image img {
+    height: 200px;  
+    width: 100%;
+    border: solid rgb(145, 204, 205) 5px;
+}
+
+.bottom-boxes .text-block {
+    position: absolute;
+    justify-content: left;
+    bottom: 30px;    
+    font-size: 20px;
+    background-color: rgb(145, 204, 205); 
+    color: rgb(49, 52, 61);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px, 0px, 20px, 0px;
+}
+
+footer{
+    display: flex;    
+}
+
+.footer-resources{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;    
+}
+
+.footer-resources ul {
+    display:flex;  
+    justify-content: space-around;     
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-resources li {        
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration-line:underline;
+    padding: 8px;
+    color: rgb(66, 85, 117);
+}
+.footer-resources a {
+    font-size: 25px;
+    text-decoration-line:underline;
+    text-decoration: none;
+    padding: 8px; 
+    color:rgb(66, 85, 117);  
+}
+
+footer .contact-me {
+    display: flex;
+    justify-content: right;        
+    font-size:30px;
+    color: rgb(66, 85, 117);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-right: solid rgb(66, 85, 117) 5px;
+    width: 19%;    
+}
+
